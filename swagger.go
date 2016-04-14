@@ -101,7 +101,7 @@ type Parameter struct {
 	Format        string `json:"format"`   // int64
 	AllowMultiple bool   `json:"allowMultiple"`
 	Required      bool   `json:"required"`
-	Default       string `json:"default"`
+	Default       string `json:"defaultValue"`
 	Minimum       int    `json:"minimum"`
 	Maximum       int    `json:"maximum"`
 }
